@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	margin-left:100px;
+	margin-right:100px;
+	height:auto;
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.about{
+	width:100%;
+	height: 300px;
+	background-image: url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2018%2F10%2Fcanva-photo-editor-63-e1543244437945.jpg); /*Couldn't link the image so i used linear-gradient background LOL!*/
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.text{
+	font-size: 30px;
+	color:#fff;
+	font-family: sans-serif;
+	text-shadow: 0px 15px 12px #000;
+}
+.line{
+	width:200px;
+	height: 8px;
+	background-color:white;
+	display: block;
+	position: relative;
+	border-radius: 5px;
+	left:10%;
+	box-shadow: 0px 15px 12px 0px #000;
+}
+.content{
+	width:100%;
+	height:auto;
+	background-color:white;
+	font-size: 23px;
+	font-family: audiowide;
+	color:#333;
+	line-height: 30px;
+	text-align: center;
+}
+b{
+	font-size: 50px;
+	color:#000;
+	font-weight: 500px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:50px;
+  background-color: #204747;
+  color: white;
+  text-align: center;
+}
+li {
+  display: inline;
+}

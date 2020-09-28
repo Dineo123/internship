@@ -1,8 +1,10 @@
+
 <p align="center">
   <a href="https://github.com/cybersec-clinique/internship">
     <img src="img/logo-black.png" alt="Logo" height="80">
   </a>
-
+<h5 align="center">Email: baleni.dinny@gmail.com</h5>
+<h5 align="center">Name: Baleni Dineo</h5>
   <h3 align="center">Developer Internship Tasks</h3>
 
   <p align="center">

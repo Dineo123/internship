@@ -1,0 +1,75 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color:#78BDBD;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:grey;
+    color: white;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #204747 ;
+    color: white;
+    text-align: center;
+ }
+
+ li {
+    display: inline;
+  }
+
+  .img{
+   float:right;
+   margin-top:67px;
+   margin-left:900px;
+   border-radius: 75%;
+  }
+
+  body  {
+    background-image: url("https://www.securitysales.com/wp-content/uploads/2019/03/cybersecurity-lock-image.jpeg");
+    background-size: cover;
+    height: 100%;
+    width:100%;
+  }
+
+  .paragraph{
+    color:white;
+    margin-left:900px;
+    margin-top:200px;
+    font-family: audiowide;
+    font-size: 23px;
+  
+  }

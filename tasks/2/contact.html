@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script defer src="contact.js"></script>
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+    
+    
+</head>
+<body>
+    <div class="contact">
+            </div>
+<div id="error"></div>
+<div class="wrapper"> 
+        <div class="row">
+                <div class="col-md-6 col-md-offset-3 form_container" id="form_container">
+                    <h2>Contact Us</h2>
+                    <p>
+                       Please send your message below. We will get back to you at the earliest! 
+                    </p>
+                    <form id="form" onsubmit="return validation()">
+            
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <label for="message">
+                                    Message:</label>
+                                <textarea class="form-control" type="textarea" id="message" name="message" maxlength="6000" rows="7"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label for="name">
+                                    Name:</label>
+                                <input  id="name" class="form-control" name="name" type="text">
+                            </div>
+     
+                            <div class="col-sm-6 form-group">
+                                 <label for="contact">
+                                     contact:</label>
+                                 <input  id="contact" class="form-control" name="contact" type="text">
+                             </div>
+     
+                            <div class="col-sm-6 form-group">
+                                <label for="email">
+                                    Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" >
+                            </div>
+                        </div>
+            
+            
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <button type="submit" >Send →</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+</div>
+<li><a href="index.html">Home</a></li> 
+<li> <a href="Gallery.html">Gallery</a></li>
+<li><a href="aboutUs.html">About</a></li>
+<div class="footer">
+        <p>Copyright &copy; Cybersec clinique 2020 By Dineo</p>
+      </div>
+</body>
+</html>
